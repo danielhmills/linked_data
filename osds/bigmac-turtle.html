@@ -1,0 +1,38 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script type="text/turtle">
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix schema:	<http://schema.org/> . 
+@prefix ns3:	<http://live.dbpedia.org/page/> . 
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> . 
+### Source document ###
+
+<>
+	a schema:Document;
+	schema:about <#BigMac>;
+	schema:mentions <#BigMac>.
+
+<#BigMac>
+	a schema:IndividualProduct;
+	schema:about <http://live.dbpedia.org/page/Big_Mac>;
+	schema:name "McDonalds Big Mac Nutritional Information";
+	schema:image <https://www.mcdonalds.com/content/dam/usa/navigation/Big_Mac_Nav_1_23_276x155.jpg>;
+	
+	#Nutritional Content
+	
+	schema:servingSize "1 Item: 7.6 oz"^^xsd:string;
+	schema:calories "563"^^xsd:integer;
+	schema:fatContent "33"^^xsd:integer;
+	schema:fiberContent "3.5"^^xsd:float;
+	schema:carbohydrateContent "55"^^xsd:integer;
+	schema:sodiumContent "1007"^^xsd:integer;
+	schema:sugarContent "9"^^xsd:integer.
+</script>
+</head>
+<body>
+<h1>The Body Of This Page Is Irrelevant. Use The OpenLink Structured Data Sniffer or URIBurner To See Content
+
+</h1></body></html>
